@@ -82,6 +82,8 @@ defmodule B1Web do
     quote do
       # HTML escaping functionality
       import Phoenix.HTML
+      import Phoenix.HTML.Form
+
       # Core UI components and translation
       import B1Web.CoreComponents
 
